@@ -189,12 +189,12 @@ on:
       builder_name:
         description: "Set Armbian builder signature."
         required: false
-        default: "Tlan"
+        default: "ophub"
         type: choice
         options:
           - ophub
           - angel
-          - yourname
+          - Tlan
 
 env:
   TZ: America/New_York
